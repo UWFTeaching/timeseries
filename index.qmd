@@ -1,5 +1,5 @@
 ---
-title: "IDC 6940 - Capstone Projects in Data Science"
+title: "STA 6856 - Time Series Analysis"
 subtitle: "UWF - Mathematics and Statistics"
 # listing:
 #   - id: schedule
@@ -23,42 +23,41 @@ subtitle: "UWF - Mathematics and Statistics"
 Things are picking up now.
 :::-->
 ```
-This course will provide you with an opportunity to apply the knowledge and skills that you have gained in the program. The capstone project will allow student to gain experience in data wrangling, data visualization, statistical modeling, machine learning, reporting, and presenting the results. Upon the completion of this course, you will have a data product (paper and slides) to show to potential hiring managers.
+Time series data is data that is focused on time and can be utilized for predicting future values or analyzing data. This course will give students an essential comprehension of the nature and basic processes used to analyze such data. The course will cover the theory and practice of time series analysis, with a focus on modeling and forecasting. Successfully completing assignments will require a combination of computing and statistics/mathematics. R will be utilized for computer-oriented analysis.
 
 ## Schedule
 
-\*Day indicates class meeting days of the week .
 
-| **Week** | **Day**\* | **Topic(s)**                             | **Action**                                                               |
-|:-----------:|:-----------:|-----------------------|:-----------------------|
-|    1     |     1     | Intro to GitHub / RStudio / Quarto       | Do Practice + Pick a Topic/Group                                         |
-|          |     2     | Pick a Topic + Practice **(no meeting**) | Pick a Topic/Group                                                       |
-|    2     |     1     | **Individual** research                  | Read and summarize research papers; Create **Individual** GitHub Website |
-|          |     2     | **Individual** research (no meeting)     | Read and summarize research papers; Create **Individual** GitHub Website |
-|    3     |     1     | **Individual** research                  | Read and summarize research papers; Add them to GitHub Website           |
-|          |     2     | **Individual** research (no meeting)     | Read and summarize research papers; Add them to GitHub Website           |
-|    4     |     1     | **Individual** research                  | Read and summarize research papers + polish writing on GitHub Website    |
-|          |     2     | **Individual** research (no meeting)     | Read and summarize research papers + polish writing on GitHub Website    |
-|    5     |     1     | **Team** research                        | write the introduction/literature review                                 |
-|          |     2     | **Team** research (no meeting)           | write the introduction/literature review                                 |
-|    6     |     1     | **Team** research                        | polish the introduction/literature review + pick a data set              |
-|          |     2     | **Team** research (no meeting)           | polish the introduction/literature review + pick a data set              |
-|    7     |     1     | **Team** research                        | data description and visualization                                       |
-|          |     2     | **Team** research (no meeting)           | data description and visualization                                       |
-|    8     |     1     | **Team** research                        | write the method section                                                 |
-|          |     2     | **Team** research (no meeting)           | write the method section                                                 |
-|    9     |     1     | **Team** research                        | write the method section                                                 |
-|          |     2     | **Team** research (no meeting)           | write the method section                                                 |
-|    10    |     1     | **Team** research                        | analysis and results                                                     |
-|          |     2     | **Team** research (no meeting)           | analysis and results                                                     |
-|    11    |     1     | **Team** research                        | analysis and results                                                     |
-|          |     2     | **Team** research (no meeting)           | analysis and results                                                     |
-|    12    |     1     | **Team** research                        | analysis and results                                                     |
-|          |     2     | **Team** research (no meeting)           | analysis and results                                                     |
-|    13    |     1     | **Team** research                        | 1st draft + slides preparation                                           |
-|          |     2     | **Team** research (no meeting)           | 1st draft + slides preparation                                           |
-|    14    |     1     | **Team** research                        | Feedback                                                                 |
-|          |     2     | **Team** research (no meeting)           |                                                                          |
-|    15    |     1     | Oral Presentations                       | Presentation                                                             |
-|          |     2     | Oral Presentations                       | Presentation                                                             |
-|    16    |           | Final paper + slides due                 |                                                                          |
+|| **Week** | **Day** | **Topic(s)** | **Readings/Tasks** |
+|:-:|:---:|:--------------------|:--:|
+| 1    | M     | Introduction to Time Series | Slides 1-16|
+|      | W     | Introduction to R/RStudio/Quarto for Time Series | |
+| 2    | M     | Practice Assignment 1 Group **no meeting** | |
+|      | W     | Introduction to R/RStudio/Quarto for Time Series | |
+| 3    | M     | **Labor Day 9/2 Holiday**
+|      | W     | Zero-Mean Simple Models + Covariance | Slides 17-27|
+|  4   | M     | Stationary + ACF + MA(1) | Slides 28-38  | 
+|      | W     | TS decomposition + Trend/Seasonality Estimation/Elimination | Slides 39-46|
+|  5   | M     | TS decomposition + Trend/Seasonality Estimation/Elimination|  | 
+|      | W     | Differencing Operator + Examples with R | Slides 47-52| 
+|  6   | M     | TS Decomposition - Practice Assignment 2 Group - **no meeting**| |
+|      | W     | Stationary processes + ARMA(p,q)  |Slides 75-91 |
+|  7   | M     | Estimation Mean and ACF + ARMA models |  | 
+|      | W     | ARMA modeling | |
+|  8   | M     | ARMA Practice Assignment 3 Group - **no meeting** | |
+|      | W     | Review - | |
+|   9  | M     | Mid-term Exam Project **no meeting** ||
+|      | W     | ARIMA models | Slides 94-99  |
+|   10 | M     | ARIMA models in R |  |
+|      | W     | SARIMA models | |
+|   11 | M     | SARIMA models - R Examples| |
+|      | W     | SARIMA Practice Assignment 4 Group - **no meeting** | |
+|   12 | M     | Forecasting| |
+|      | W     | Forecasting Practice Assignment 5 Group - **no meeting**| |
+|   13 | M     | **Veteran Day 11/11 Holiday**| |
+|      | W     |  Regression with ARMA Errors | |
+|  14  | M     |  Regression TS Practice Assignment 6 Group - **no meeting** | |
+|      | W     | Additional topics   | |
+|  15  | M     | Review  | |
+|      | W     | **Thanksgiving** | |
+|   16 | M     | **Final Exam on Monday** - Final Week  | |

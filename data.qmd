@@ -1,22 +1,24 @@
 ---
-title: "IDC 6940 - Capstone Projects in Data Science"
-subtitle: "Sample Projects"
+title: STA6856 - Time Series Analysis
+subtitle: R Scripts
 layout: page
 #callouts: home_callouts
 show_sidebar: false
 ---
 
-The following are examples of reports from previous capstone projects. While there is room for improvement, they are provided here to assist you in meeting the expectations.
+## R/Quarto Codes
 
-## 
-
-| **Title**                                                                                       |                                    **Report**                                    |
-|:--------------------------------------------|:-----------:|
-| \- Linear Mixed Models: Inhale, Exhale, Analyze: BMI’s Imprint on Impulse Oscillometry Outcomes |    [Website](https://jjc54.github.io/STA6257_Project_Linear_Mixed_Modelers/)     |
-| \- Principal Component Analysis                                                                 |            [Website](https://bjcarr08.github.io/STA6257_Project_PCA/)            |
-| \- K-means Clustering                                                                           |                        [Website](http://kmean.scrib.ink/)                        |
-| \- Cross Validation                                                                             |         [Website](https://odo4321.github.io/STA6257_CCross-Validation/)          |
-| -Predicting Plant Extinctions Using the Random Forest Algorithm                                 |        [Website](https://uwfgit.github.io/STA6257_random_forest_project/)        |
-| -Generalized Estimating Equations                                                               |     [Website](https://ramblinwreck2718.github.io/STA6257_Project/index.html)     |
-| -Predicting Survival of Intensive Care Unit Patients with Support Vector Machines               |            [Website](https://joshholl.github.io/STA6257_Project_SVM/)            |
-| -Demonstration of a K-Means Clustering Algorithm on Spotify music features                      | [Website](https://stacychandisingh.github.io/STA6257_Project_KMeans_Clustering/) |
+| **Topic** | **R Code**  |
+|:-----------------------|:---:|
+| - Introduction to R + Time Series   | [.html/.qmd](rcodes/TimeSeriesR.html) 
+| - Simple Zero Mean Models + ACF   | [.html/.qmd](rcodes/SimpleModels.html)
+| - AutoCorrelation Function   | [.html/.qmd](rcodes/ACFExamples.html)
+| - Template Assignments   | [.html/.qmd](rcodes/HW_template.html)
+| - Trend + Season Estimation and IID Testing   | [.html/.qmd](rcodes/TSDecomposition.html)
+| - ARMA(p,q) Modeling | [.html/.qmd](rcodes/ARMAModeling.html)
+| - ARMA(p,q) modeling group work | [.html/.qmd](rcodes/PracticeARMAModeling.html)
+| - ARIMA(p,d,q) modeling | [.html/.qmd](rcodes/ARIMAModeling.html)
+| - SARIMA(p,d,q)x(P,D,Q)s modeling | [.html/.qmd](rcodes/SARIMA.html)
+| - Forecasting | [.html/.qmd](rcodes/Forecasting.html)
+| - Regression with ARMA errors | [.html/.qmd](rcodes/RegARMA.html)
+| - GARCH models | [.html/.qmd](rcodes/GARCH.html)

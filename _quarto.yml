@@ -1,37 +1,29 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!rcodes/qmd/"
 website:
-  site-url: "https://capstone4ds.github.io/"
+  site-url: ""
   sidebar:
     style: docked
-    title: "IDC 6940"
+    title: "STA 6856"
     logo: assets/logo.png
     tools:
       - icon: github
-        href: https://github.com/capstone4ds/capstone4ds.github.io
+        href: https://github.com/UWFTeaching/timeseries
     contents:
       - href: index.qmd
         text: Home / Schedule
       - href: syllabus.qmd
         text: Syllabus
       - href: staff.qmd
-        text: Instructors
+        text: Instructor
       - href: project.qmd
-        text: Project Instructions
-      # - section: "Units"
-      #   contents:
-      #     - units/unit1.qmd
-      #     - units/unit2.ipynb
-      #     - units/unit3.qmd
+        text: Slides
       - href: data.qmd
-        text: Sample Projects
-      - href: stat.qmd
-        text: Capstone in Statistics
-      - href: math.qmd
-        text: Capstone in Mathematics
-      #- href: license.qmd
-      #  text: License
-          
+        text: R code
+
 
 format:
   html:

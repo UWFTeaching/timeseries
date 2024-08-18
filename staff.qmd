@@ -1,44 +1,30 @@
 ---
-title: "IDC 6940 - Capstone Projects in Data Science"
-subtitle: "Instructors"
+title: "STA 6856 - Time Series Analysis"
+subtitle: "Instructor"
 editor: 
   markdown: 
     wrap: 72
 ---
 
-::: callout-important
-It depends on the semester. One or more instructors are assigned to
-teach this course.
+<!-- ::: callout-important -->
+<!-- It depends on the semester. One or more instructors are assigned to -->
+<!-- teach this course. -->
 
-Please visit [Canvas](https://uwf.instructure.com/){target="_blank"} or
-get in touch with your instructor for questions and office hours
-appointments.
-:::
+<!-- Please visit [Canvas](https://uwf.instructure.com/){target="_blank"} or -->
+<!-- get in touch with your instructor for questions and office hours -->
+<!-- appointments. -->
+<!-- ::: -->
 
 ------------------------------------------------------------------------
 
-**Instructors:**
-
--   <a href="https://uwf.edu/hmcse/departments/mathematics-and-statistics/faculty/dr-samantha-seals.html" target="_blank">Dr.
-    Samantha Seals</a>:
-
-    -   Email: `sseals@uwf.edu`
-
-    -   GitHub: <https://github.com/samanthaseals>
-
--   <a href="https://uwf.edu/hmcse/departments/mathematics-and-statistics/faculty/dr-shusen-pu.html" target="_blank">Dr.
-    Shusen Pu</a>:
-
-    -   Email: `spu@uwf.edu`
-
-    -   GitHub: <https://github.com/shusenpu>
+**Instructor:**
 
 -   <a href="https://uwf.edu/hmcse/departments/mathematics-and-statistics/faculty/dr-achraf-cohen.html" target='_blank'>Dr.
     Achraf Cohen</a>:
 
     -   Email: `acohen@uwf.edu`
-
     -   GitHub: <https://github.com/acohenstat>
+    - Research Lab : [https://csdalab.github.io/](https://csdalab.github.io/)
 
 ```{=html}
 <!--

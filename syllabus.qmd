@@ -1,6 +1,12 @@
 ---
-title: 'IDC 6940 - Capstone Projects in Data Science'
-subtitle: "Syllabus"
+title: 'STA6856: Time Series Analysis'
+subtitle: "Syllabus: Fall 2024"
+#author: "Dr. Achraf Cohen"
+#date: "Last updated: `r Sys.Date()`"
+format: html
+execute: 
+  warning: false
+self-contained: true
 editor: 
   markdown: 
     wrap: 72
@@ -10,19 +16,19 @@ editor:
 knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE)
 ```
 
-::: callout-important
-This is a generic syllabus, please refer to Canvas or your semester
-instructor for more details.
-:::
+<!-- ![](Math.jpg){width="50%"} -->
 
 ## Course Information
 
--   **Instructor:** [Instructor information](staff.html)
--   **Email policy**: Please put **IDC6940** in the email subject
+-   **Instructor**: Dr. Achraf Cohen
+-   **Email**: acohen\@uwf.edu
+-   **Class Meetings**: MW from 4:00PM to 5:15PM
+-   **Email policy**: Please put **STA6856** in the email subject
 -   **Class Meetings**: Online Learning
 -   **Course Materials**:
     [Canvas](https://uwf.instructure.com/){target="_blank"}
--   **Office Hours**: Email your [instructors](staff.html)
+-   **Office Hours**: By appointment
+
 
 <!-- You may schedule an appointment for office hours through Navigate following [these instructions](https://confluence.uwf.edu/display/public/Schedule+an+Appointment+with+your+Academic+Advisor%2C+an+Academic+Support+office%2C+or+Faculty+Office+Hours): -->
 
@@ -34,15 +40,27 @@ instructor for more details.
 
 <!-- All office hours will be held in my personal [Zoom room](https://uwf.zoom.us/my/acohen).  -->
 
+#### Textbooks (not required)
+
+-   Introduction to Time Series and Forecasting, Edition (2016). Author:
+    Peter J. Brockwell, Richard A. Davis; ISBN-13: 978-3-319-29852-8
+    (recommended)
+
+-   Forecasting: principles and practice, 3rd edition, Author: Hyndman,
+    R.J., & Athanasopoulos, G. (2021) OTexts: Melbourne, Australia.
+    <https://otexts.com/fpp3/>. Accessed on \<7/26/2023\>. **\[free
+    access\]**
+
 ## Course Description
 
-This course will provide you with an opportunity to apply the knowledge
-and skills that you have gained in the program. The capstone project
-will allow student to gain experience in data wrangling, data
-visualization, statistical modeling, machine learning, reporting, and
-presenting the results. Upon the completion of this course, you will
-have a data product (paper and slides) to show to potential hiring
-managers.
+Time series data is data that is focused on time and can be utilized for
+predicting future values or analyzing data. This course will give
+students an essential comprehension of the nature and basic processes
+used to analyze such data. The course will cover the theory and practice
+of time series analysis, with a focus on modeling and forecasting.
+Successfully completing assignments will require a combination of
+computing and statistics/mathematics. R will be utilized for
+computer-oriented analysis.
 
 <!-- ## Topics -->
 
@@ -66,24 +84,70 @@ managers.
 
 At the completion of this course, students will be able to:
 
--   Describe a research or business problem of interest
--   Apply and compare statistical and machine learning methods
--   Acquire, organize, summarize, and visualize data
--   Communicate and formulate statistical analysis to an audience
--   Collaborate with others
+-   Explain the characteristics of time series data.
+-   Describe the components (trends and seasonality) in time series
+    data.
+-   Describe Seasonal ARIMA time series models and stationary processes
+-   Apply Seasonal ARIMA time series models.
+-   Forecasting algorithms such as ARAR and Holt-Winters.
+-   Use R for time series modeling.
 
 ## Course Materials
 
 There is no required textbooks for this course. Course Materials are
 posted on Canvas. Lectures will be recorded and posted on Canvas.
 
+<!-- > **Course Outline**: -->
+<!-- > [https://acohenstat.github.io/STA6856/](https://acohenstat.github.io/STA6856/){target="_blank"} -->
+
+<!-- if you choose to have your video on, you may show up on the recording. If you choose to use the microphone to ask questions, your voice will be captured on the recording. If you do not feel comfortable with either of these items, please do not turn on your video and do not use the microphone to ask questions. I will monitor the chat throughout lecture and will read questions aloud before answering them. **Lecture notes and videos will be posted to Canvas within two business days.**  -->
+
+<!-- Each week would look something like this: -->
+
+<!-- ```{r, echo=FALSE, eval=TRUE, message=FALSE, warning=FALSE, fig.height=2} -->
+
+<!-- library(DiagrammeR) -->
+
+<!-- grViz("digraph { -->
+
+<!-- graph[layout = dot, rankdir = LR] -->
+
+<!-- node [shape = rectangle, style = filled, fillcolor = LightBlue] -->
+
+<!-- node[fontname = 'helvetica', width = 1.5, height = 0.5] -->
+
+<!-- tues [label = 'Watch Recordings', fillcolor = '#B3CDE3'] -->
+
+<!-- thurs [label ='Practice and Discuss \n Group work', fillcolor = '#CCEBC5'] -->
+
+<!-- quiz [label = 'Individual Project \n Due Sunday \n  11:59 pm CST', fillcolor = '#ff3b30'] -->
+
+<!-- tues -> thurs -> quiz -->
+
+<!-- }") -->
+
+<!-- ``` -->
+
 ## Grading and Evaluation
 
 The course grade will be determined as follows:
 
--   Quizzes Project Progress (#6): 60%
--   Oral Presentation - Slides (#1): 20%
--   Final Paper Project (#1): 20%
+-   Practice Work Progress (#6): 30%
+-   Assignments (#3): 30%
+-   Midterm Exam: 20%
+-   Final Exam: 20%
+
+<!-- 1. Homework/Quizzes (40%): There will be a timed quiz taken through Canvas every weekend that is similar to the assigned homework. You must upload a readable scan -- a single PDF file -- of your written work to the appropriate dropbox on Canvas within 5 minutes of completing the quiz. To allow for flexibility with life/work scheduling, **the quizzes will open on Friday and are due on Sunday night at 11:59 pm, Central.** The two lowest quiz grades will be excluded from the quiz average. -->
+
+<!-- 2. Projects (30%): All projects will be completed using R and a report will be constructed using R Markdown. Projects will be submitted as HTML files in the appropriate dropbox on Canvas. **The due date for projects will be approximately one week after completion of the material corresponding to the project.**  -->
+
+<!-- 3. Final Exam (30%): The final exam will be divided into two parts: a take-home computation-based exam (10%) and an in-class concepts-based exam (20%). While there may be some calculations needed, you will not be processing raw data on the in-class portion of the final exam. **The in-class portion of the final exam will be on Thursday, December 9, 2021.** The date of this exam will not change, so please make arrangements to be free for an uninterrupted block of time on the specified date. -->
+
+<!-- It is expected that all work submitted is the student's own work. Evidence of academic dishonesty, including using "homework help" websites such as Chegg or CourseHero, or collaboration with other students, will be submitted to the Dean of Students. A grade of 0 will automatically be assigned for the assignment and **there will be no opportunities to change that grade.** -->
+
+<!-- ## Late Policy -->
+
+<!-- It is always my goal to provide you with timely feedback, hence, the necessity of deadlines for the projects. However, I recognize that life happens -- pandemic or not -- and allow for an extension. Please send me an email prior to the deadline to let me know that you need an extension. Deadlines will not be pushed more than one week unless necessary. You do not have to justify your need for an extension, but you are welcome to do so. -->
 
 ## Grade Distribution
 
@@ -127,25 +191,3 @@ Final course grades will be determined according to the following scale.
 This link includes additional syllabus statements that can benefit all
 UWF students: [University Statements and
 Policies](https://confluence.uwf.edu/display/public/Additional+Syllabus+Statements){target="_blank"}
-
-## Textbooks (not required)
-
--   R for Data Science, 2017, Hadley Wickham and Garrett Grolemond. Free
-    acess: [https://r4ds.had.co.nz/](#0)
-
--   Python for Data Science:
-    <https://aeturrell.github.io/python4DS/welcome.html>
-
--   Foundations of Linear and Generalized Linear Models, Edition (2015).
-    Author: Alan Agresti; ISBN-13: 978-1118730034. [Free access with UWF
-    account](https://ebookcentral.proquest.com/lib/uwf/reader.action?docID=1895564){target="_blank"}
-
--   Generalized Linear Models With Examples in R, Edition (2015).
-    Author: Peter K. Dunn and Gordon K. Smyth ; ISBN-13: 978-1441901170.
-
-    <!--# Generalized, Linear, and Mixed Models, 2nd Edition (2008). Author: Charles E. McCulloch, Shayle R. Searle, John M. Neuhaus; ISBN-13: 978-0-470-07371-1. -->
-
--   Introduction to Data Science - Data Analysis and Prediction
-    Algorithms with R, (2020). Author: Rafael A. Irizarry.
-
-## 

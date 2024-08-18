@@ -6,12 +6,12 @@ library(ggplot2)
 font_add_google("Gochi Hand", "gochi")
 ## Automatically use showtext to render text for future devices
 showtext_auto()
-p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
+p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_line(col="gold") + geom_point(col="red4")
 p <- p + theme_void() + theme_transparent()
 ## use the ggplot2 example
-sticker(p, package="CAPSTONE \n@UWF MATHSTAT", p_size=15, 
-        s_x=1, s_y=.75, s_width=1.2, s_height=1, p_family = "gochi",
-        p_x = 1, p_y=1, 
+sticker(p, package="TIME SERIES ANALYSIS \n@UWF MATHSTAT", p_size=14, 
+        s_x=1, s_y=1, s_width=1.5, s_height=0.8, p_family = "gochi",
+        p_x = 1, p_y=1, p_color = "black",
         filename="assets/logo.png")
 
 
