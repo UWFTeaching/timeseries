@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "STA6856: Time Series Analysis",
+    "section": "",
+    "text": "Instructor: Dr. Achraf Cohen\nEmail: acohen@uwf.edu\nClass Meetings: MW from 4:00PM to 5:15PM\nEmail policy: Please put STA6856 in the email subject\nClass Meetings: Online Learning\nCourse Materials: Canvas\nOffice Hours: By appointment\n\n\n\n\n\n\n\n\n\nIntroduction to Time Series and Forecasting, Edition (2016). Author: Peter J. Brockwell, Richard A. Davis; ISBN-13: 978-3-319-29852-8 (recommended)\nForecasting: principles and practice, 3rd edition, Author: Hyndman, R.J., & Athanasopoulos, G. (2021) OTexts: Melbourne, Australia. https://otexts.com/fpp3/. Accessed on &lt;7/26/2023&gt;. [free access]",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-information",
+    "href": "syllabus.html#course-information",
+    "title": "STA6856: Time Series Analysis",
+    "section": "",
+    "text": "Instructor: Dr. Achraf Cohen\nEmail: acohen@uwf.edu\nClass Meetings: MW from 4:00PM to 5:15PM\nEmail policy: Please put STA6856 in the email subject\nClass Meetings: Online Learning\nCourse Materials: Canvas\nOffice Hours: By appointment\n\n\n\n\n\n\n\n\n\nIntroduction to Time Series and Forecasting, Edition (2016). Author: Peter J. Brockwell, Richard A. Davis; ISBN-13: 978-3-319-29852-8 (recommended)\nForecasting: principles and practice, 3rd edition, Author: Hyndman, R.J., & Athanasopoulos, G. (2021) OTexts: Melbourne, Australia. https://otexts.com/fpp3/. Accessed on &lt;7/26/2023&gt;. [free access]",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "STA6856: Time Series Analysis",
+    "section": "Course Description",
+    "text": "Course Description\nTime series data is data that is focused on time and can be utilized for predicting future values or analyzing data. This course will give students an essential comprehension of the nature and basic processes used to analyze such data. The course will cover the theory and practice of time series analysis, with a focus on modeling and forecasting. Successfully completing assignments will require a combination of computing and statistics/mathematics. R will be utilized for computer-oriented analysis.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#student-learning-outcomes",
+    "href": "syllabus.html#student-learning-outcomes",
+    "title": "STA6856: Time Series Analysis",
+    "section": "Student Learning Outcomes",
+    "text": "Student Learning Outcomes\nAt the completion of this course, students will be able to:\n\nExplain the characteristics of time series data.\nDescribe the components (trends and seasonality) in time series data.\nDescribe Seasonal ARIMA time series models and stationary processes\nApply Seasonal ARIMA time series models.\nForecasting algorithms such as ARAR and Holt-Winters.\nUse R for time series modeling.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-materials",
+    "href": "syllabus.html#course-materials",
+    "title": "STA6856: Time Series Analysis",
+    "section": "Course Materials",
+    "text": "Course Materials\nThere is no required textbooks for this course. Course Materials are posted on Canvas. Lectures will be recorded and posted on Canvas.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#grading-and-evaluation",
+    "href": "syllabus.html#grading-and-evaluation",
+    "title": "STA6856: Time Series Analysis",
+    "section": "Grading and Evaluation",
+    "text": "Grading and Evaluation\nThe course grade will be determined as follows:\n\nPractice Work Progress (#6): 30%\nAssignments (#3): 30%\nMidterm Exam: 20%\nFinal Exam: 20%",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#grade-distribution",
+    "href": "syllabus.html#grade-distribution",
+    "title": "STA6856: Time Series Analysis",
+    "section": "Grade Distribution",
+    "text": "Grade Distribution\nFinal course grades will be determined according to the following scale.\n\n\n\nLetter Grade\nWeighted Score\n\n\n\n\nA\n93%–100%\n\n\nA-\n90%–92%\n\n\nB+\n87%–89%\n\n\nB\n83%–86%\n\n\nB-\n80%–82%\n\n\nC+\n77%–79%\n\n\nC\n73%–76%\n\n\nC-\n70%–72%\n\n\nD+\n67%–69%\n\n\nD\n60%–66%\n\n\nF\n&lt; 60%",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#university-statements-and-policies",
+    "href": "syllabus.html#university-statements-and-policies",
+    "title": "STA6856: Time Series Analysis",
+    "section": "University Statements and Policies",
+    "text": "University Statements and Policies\nThis link includes additional syllabus statements that can benefit all UWF students: University Statements and Policies",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "STA 6856 - Time Series Analysis",
+    "section": "",
+    "text": "Time series data is data that is focused on time and can be utilized for predicting future values or analyzing data. This course will give students an essential comprehension of the nature and basic processes used to analyze such data. The course will cover the theory and practice of time series analysis, with a focus on modeling and forecasting. Successfully completing assignments will require a combination of computing and statistics/mathematics. R will be utilized for computer-oriented analysis.",
+    "crumbs": [
+      "Home / Schedule"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "STA 6856 - Time Series Analysis",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\n\n\n\n\n\nWeek\nDay\nTopic(s)\n\n\n\n\n1\nM\nIntroduction to Time Series\nSlides 1-16\n\n\n\nW\nIntroduction to R/RStudio/Quarto for Time Series\n\n\n\n2\nM\nPractice Assignment 1 Group no meeting\n\n\n\n\nW\nIntroduction to R/RStudio/Quarto for Time Series\n\n\n\n3\nM\nLabor Day 9/2 Holiday\n\n\n\n\nW\nZero-Mean Simple Models + Covariance\nSlides 17-27\n\n\n4\nM\nStationary + ACF + MA(1)\nSlides 28-38\n\n\n\nW\nTS decomposition + Trend/Seasonality Estimation/Elimination\nSlides 39-46\n\n\n5\nM\nTS decomposition + Trend/Seasonality Estimation/Elimination\n\n\n\n\nW\nDifferencing Operator + Examples with R\nSlides 47-52\n\n\n6\nM\nTS Decomposition - Practice Assignment 2 Group - no meeting\n\n\n\n\nW\nStationary processes + ARMA(p,q)\nSlides 75-91\n\n\n7\nM\nEstimation Mean and ACF + ARMA models\n\n\n\n\nW\nARMA modeling\n\n\n\n8\nM\nARMA Practice Assignment 3 Group - no meeting\n\n\n\n\nW\nReview -\n\n\n\n9\nM\nMid-term Exam Project no meeting\n\n\n\n\nW\nARIMA models\nSlides 94-99\n\n\n10\nM\nARIMA models in R\n\n\n\n\nW\nSARIMA models\n\n\n\n11\nM\nSARIMA models - R Examples\n\n\n\n\nW\nSARIMA Practice Assignment 4 Group - no meeting\n\n\n\n12\nM\nForecasting\n\n\n\n\nW\nForecasting Practice Assignment 5 Group - no meeting\n\n\n\n13\nM\nVeteran Day 11/11 Holiday\n\n\n\n\nW\nRegression with ARMA Errors\n\n\n\n14\nM\nRegression TS Practice Assignment 6 Group - no meeting\n\n\n\n\nW\nAdditional topics\n\n\n\n15\nM\nReview\n\n\n\n\nW\nThanksgiving\n\n\n\n16\nM\nFinal Exam on Monday - Final Week",
+    "crumbs": [
+      "Home / Schedule"
+    ]
+  },
+  {
+    "objectID": "data.html",
+    "href": "data.html",
+    "title": "STA6856 - Time Series Analysis",
+    "section": "",
+    "text": "Topic\nR Code\n\n\n\n\n- Introduction to R + Time Series\n.html/.qmd\n\n\n- Simple Zero Mean Models + ACF\n.html/.qmd\n\n\n- AutoCorrelation Function\n.html/.qmd\n\n\n- Template Assignments\n.html/.qmd\n\n\n- Trend + Season Estimation and IID Testing\n.html/.qmd\n\n\n- ARMA(p,q) Modeling\n.html/.qmd\n\n\n- ARMA(p,q) modeling group work\n.html/.qmd\n\n\n- ARIMA(p,d,q) modeling\n.html/.qmd\n\n\n- SARIMA(p,d,q)x(P,D,Q)s modeling\n.html/.qmd\n\n\n- Forecasting\n.html/.qmd\n\n\n- Regression with ARMA errors\n.html/.qmd\n\n\n- GARCH models\n.html/.qmd",
+    "crumbs": [
+      "R code"
+    ]
+  },
+  {
+    "objectID": "data.html#rquarto-codes",
+    "href": "data.html#rquarto-codes",
+    "title": "STA6856 - Time Series Analysis",
+    "section": "",
+    "text": "Topic\nR Code\n\n\n\n\n- Introduction to R + Time Series\n.html/.qmd\n\n\n- Simple Zero Mean Models + ACF\n.html/.qmd\n\n\n- AutoCorrelation Function\n.html/.qmd\n\n\n- Template Assignments\n.html/.qmd\n\n\n- Trend + Season Estimation and IID Testing\n.html/.qmd\n\n\n- ARMA(p,q) Modeling\n.html/.qmd\n\n\n- ARMA(p,q) modeling group work\n.html/.qmd\n\n\n- ARIMA(p,d,q) modeling\n.html/.qmd\n\n\n- SARIMA(p,d,q)x(P,D,Q)s modeling\n.html/.qmd\n\n\n- Forecasting\n.html/.qmd\n\n\n- Regression with ARMA errors\n.html/.qmd\n\n\n- GARCH models\n.html/.qmd",
+    "crumbs": [
+      "R code"
+    ]
+  },
+  {
+    "objectID": "staff.html",
+    "href": "staff.html",
+    "title": "STA 6856 - Time Series Analysis",
+    "section": "",
+    "text": "Instructor:\n\nDr. Achraf Cohen:\n\nEmail: acohen@uwf.edu\nGitHub: https://github.com/acohenstat\nResearch Lab : https://csdalab.github.io/",
+    "crumbs": [
+      "Instructor"
+    ]
+  }
+]
